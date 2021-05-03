@@ -1,0 +1,45 @@
+html {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.header,
+footer {
+  height: 20vh;
+  background-color: rgb(73, 73, 73);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+nav {
+  background: rgb(255, 119, 109);
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  width: 70%;
+  height: 60vh;
+  padding: 5%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 20vh;
+  background-color: rgb(150, 150, 150);
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 25px;
+}
